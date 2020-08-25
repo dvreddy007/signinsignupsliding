@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "signuploginslidingapp"
+    }
+  },
+  "defaultProject": "signuploginslidingapp",
+  "cli": {
+    "analytics": "4aab0a81-f054-48d8-ae6f-28b655800c51"
+  }
 }
