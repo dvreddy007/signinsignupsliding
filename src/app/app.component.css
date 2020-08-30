@@ -1,0 +1,41 @@
+.iconshapes {    
+    position: relative;    
+}
+.iconshapes .align-shapes img:nth-child(1){
+    position: absolute;
+    top: 25rem;
+}
+
+.iconshapes .align-shapes img:nth-child(2){
+    position: absolute;
+    top: 5rem;
+}
+
+.iconshapes .align-shapes img:nth-child(3){
+    position: absolute;
+    top: 1rem;
+    left: 10rem;
+}
+
+.iconshapes .align-shapes img:nth-child(4){
+    position: absolute;
+    top: 1rem;
+    left: 25rem;
+}
+.iconshapes .align-shapes img:nth-child(5){
+    position: absolute;
+    top: 36rem;
+    left: 25rem;
+}
+
+.iconshapes .align-shapes img:nth-child(6){
+    position: absolute;
+    top: 2rem;
+    left: 25rem;
+}
+
+.iconshapes .align-shapes img:nth-child(7){
+    position: absolute;
+    top: 16rem;
+    left: 28rem;
+}

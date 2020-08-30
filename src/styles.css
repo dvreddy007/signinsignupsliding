@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 *, *:before, *:after{
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Nunito', sans-serif;
@@ -8,7 +8,6 @@
 
 body{
   width: 100%;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;  
@@ -24,16 +23,16 @@ input, button{
 .cont{
   overflow: hidden;
   position: relative;
-  width: 900px;
-  height: 550px;
+  width: 85rem;
+  height: 100vh;
   background: #fff;
-  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  /* box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22); */
 }
 
 .form{
   position: relative;
-  width: 640px;
-  height: 100%;
+  width: 75%;
+  /* height: 100%; */
   padding: 50px 30px;
   -webkit-transition:-webkit-transform 1.2s ease-in-out;
   transition: -webkit-transform 1.2s ease-in-out;
@@ -86,7 +85,7 @@ button{
 .submit{
   margin-top: 40px;
   margin-bottom: 30px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 600;
   font-family: 'Nunito', sans-serif;
   background-color: #3379b7; 
@@ -133,12 +132,12 @@ button{
 .sub-cont{
   overflow: hidden;
   position: absolute;
-  left: 640px;
+  left: 30rem;
   top: 0;
-  width: 900px;
+  width: 55rem;
   height: 100%;
   padding-left: 260px;
-  background: #fff;
+  /* background: #fff; */
   -webkit-transition: -webkit-transform 1.2s ease-in-out;
   transition: -webkit-transform 1.2s ease-in-out;
   transition: transform 1.2s ease-in-out;
@@ -162,9 +161,9 @@ h1{
   overflow: hidden;
   z-index: 2;
   position: absolute;
-  left: 0;
+  left: 5rem;
   top: 0;
-  width: 260px;
+  width: 30rem;
   height: 100%;
   padding-top: 360px;
 }
@@ -174,9 +173,10 @@ h1{
   position: absolute;
   right: 0;
   top: 0;
-  width: 900px;
+  width: 85rem;
   height: 100%;
   background-image: url(./assets/blue-bg.png);
+  opacity: 0.8;
   background-size: cover;
   transition: -webkit-transform 1.2s ease-in-out;
   transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
@@ -188,8 +188,7 @@ h1{
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.3);
+  height: 100%;  
 }
 
 .cont.s-signup .img:before{
@@ -201,8 +200,7 @@ h1{
   z-index: 2;
   position: absolute;
   left: 0;
-  top: 50px;
-  width: 100%;
+  top: 50px;  
   padding: 0 20px;
   text-align: center;
   color: #fff;
@@ -248,8 +246,8 @@ h1{
           transition-timing-function:ease-in-out;
   -webkit-transition-duration:1.2s;
           transition-duration:1.2s; 
-  -webkit-transform:translate3d(640px, 0, 0);
-          transform:translate3d(640px, 0, 0);
+  -webkit-transform:translate3d(250px, 0, 0);
+          transform:translate3d(250px, 0, 0);
 }
 
 .img-btn{
@@ -261,7 +259,7 @@ h1{
   margin: 0 auto;
   background: transparent;
   color: #fff;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 15px;
   cursor: pointer;
 }
